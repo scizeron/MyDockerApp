@@ -5,7 +5,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>mydockerapp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>mydockerapp</name>
@@ -74,6 +74,7 @@
     <version>0.3.8</version>
     <configuration>
      <serverId>docker-hub</serverId>
+     <registryUrl>https://index.docker.io/v1/</registryUrl>
      <imageName>${docker.image.prefix}/${project.artifactId}:${project.version}</imageName>
      <baseImage>anapsix/alpine-java:8</baseImage>
      <imageTags>
