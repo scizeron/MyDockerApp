@@ -8,7 +8,7 @@
  <packaging>jar</packaging>
 
  <name>mydockerapp</name>
- <description>mydockerapp</description>
+ <description>mydockerapp desc</description>
 
  <parent>
   <groupId>org.springframework.boot</groupId>
