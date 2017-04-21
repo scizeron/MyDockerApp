@@ -59,10 +59,10 @@
       </goals>
       <inherited>false</inherited>
       <configuration>
-       <tasks>
+       <target>
         <mkdir dir="${project.build.directory}/docker" />
         <fixcrlf srcdir="docker" destDir="${project.build.directory}/docker" eol="unix" />
-       </tasks>
+       </target>
       </configuration>
      </execution>
     </executions>
